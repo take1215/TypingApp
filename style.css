@@ -28,3 +28,37 @@ body {
     max-width: 90%;
     box-shadow: 1px 5px 6px #525252;
 }
+
+.container .type-Input {
+    margin-top: 4rem;
+    font-size: 3rem;
+}
+
+.timer {
+    position: absolute;
+    top: 2rem;
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgb(230, 89, 70);
+}
+
+.type-display {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.type-Input {
+    background: transparent;
+    border: 2px solid red;
+    outline: none;
+    width: 100%;
+    height: 14rem;
+    margin: auto;
+    resize: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+.type-Input:focus {
+    border-color: black;
+}
